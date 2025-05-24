@@ -205,6 +205,9 @@ button {
   }
 
   .background > img {
+    
+      background-image: url('../resources/bg-cafe-sm.jpg'); /* Smaller screen image */
+    
     height: 25vh;
   }
 }
@@ -237,6 +240,9 @@ button {
 
   .background > img {
     height: 20vh;
+    
+      background-image: url('../resources/bg-cafe-sm.jpg'); /* Smaller screen image */
+    
   }
 
   .description {
@@ -256,6 +262,9 @@ button {
 
 /* Very small screens */
 @media (max-width: 320px) {
+  .background {
+    background-image: url('../resources/bg-cafe-sm.jpg'); /* Smaller screen image */
+  }
   .wrapper {
     width: 98vw;
     padding: 1rem 0.75rem;
