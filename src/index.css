@@ -206,7 +206,7 @@ button {
 
   .background > img {
     
-      background-image: url('../resources/bg-cafe-sm.jpg'); /* Smaller screen image */
+      background-image: url('/public/bg-cafe-sm.jpg'); /* Smaller screen image */
     
     height: 25vh;
   }
@@ -241,7 +241,7 @@ button {
   .background > img {
     height: 20vh;
     
-      background-image: url('../resources/bg-cafe-sm.jpg'); /* Smaller screen image */
+      background-image: url('/public/bg-cafe-sm.jpg'); /* Smaller screen image */
     
   }
 
@@ -263,7 +263,7 @@ button {
 /* Very small screens */
 @media (max-width: 320px) {
   .background {
-    background-image: url('../resources/bg-cafe-sm.jpg'); /* Smaller screen image */
+    background-image: url('/public/bg-cafe-sm.jpg'); /* Smaller screen image */
   }
   .wrapper {
     width: 98vw;
