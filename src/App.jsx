@@ -6,11 +6,11 @@ export default function App() {
     <div>
       <div className="container">
         <div className="background">
-          <img src="/public/bg-cafe-lg.jpg" alt="" />
+          <img src="/bg-cafe-lg.jpg" alt="" />
         </div>
         <div className="wrapper">
           <div className="wrapper_description">
-            <img src="/public/vector.svg " alt="" />
+            <img src="/vector.svg" alt="" />
             <h1>Our Collection</h1>
             <p>
               Introducing our Coffee Collection, a selection of unique coffees
